@@ -1,15 +1,12 @@
 {
     "workbench.colorTheme": "Predawn",
     "editor.fontFamily": "Fira Code",
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter.notebook.ipynb",
             "filenamePattern": "*.ipynb"
         }
     ],
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "terminal.integrated.shellArgs.windows": [],
     "editor.fontLigatures": true,
     "editor.tabSize": 2,
     "prettier.singleQuote": true,
@@ -35,5 +32,7 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
-    }
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.iconTheme": "material-icon-theme"
 }
