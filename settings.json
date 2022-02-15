@@ -1,38 +1,82 @@
 {
-    "workbench.colorTheme": "Predawn",
-    "editor.fontFamily": "Fira Code",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "editor.fontFamily": "'Fira Code'",
     "editor.fontLigatures": true,
-    "editor.tabSize": 2,
+    "telemetry.telemetryLevel": "off",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "php.suggest.basic": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "intelephense.format.braces": "k&r",
+    "editor.wordWrap": "on",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#F9826C"
+    },
+    "editor.cursorBlinking": "phase",
+    "files.insertFinalNewline": true,
     "prettier.singleQuote": true,
-    "[python]": {
-        "editor.tabSize": 4
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "vim.useSystemClipboard": true,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.tabSize": 2,
         "editor.formatOnSave": true
     },
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2,
+        "editor.formatOnPaste": true,
         "editor.formatOnSave": true
     },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
-    },
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "workbench.iconTheme": "material-icon-theme"
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<C-t>"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<C-d>"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ]
 }
