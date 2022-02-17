@@ -19,11 +19,13 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "vim.useSystemClipboard": true,
-    "window.zoomLevel": 1,
     "workbench.colorTheme": "Gruvbox Dark Hard",
     "[html]": {
         "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.tabSize": 2
     },
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -63,20 +65,27 @@
     ],
     "vim.insertModeKeyBindings": [
         {
-            "before": [
-                "<C-t>"
-            ],
+            "before": ["<C-t>"],
             "commands": [
                 "editor.action.indentLines"
             ]
         },
         {
-            "before": [
-                "<C-d>"
-            ],
+            "before": ["<C-d>"],
             "commands": [
                 "editor.action.outdentLines"
             ]
         },
-    ]
+    ],
+    "editor.quickSuggestionsDelay": 100,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.parameterHints.enabled": false,
+    "vim.matchpairs": "(:),{:},[:],<:>",
+    "window.zoomLevel": 1
 }
